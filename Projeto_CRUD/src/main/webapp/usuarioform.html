@@ -1,0 +1,41 @@
+
+
+<h1>Cadastrar Novo Usuário</h1>
+
+<form action="addusuario.jsp">
+     <table>
+           <tr>
+              <td>Nome:</td>
+              <td><input type="text" name="nome"/></td> 
+           </tr>
+           <tr>
+              <td>Matricula:</td>
+              <td><input type="text" name="matricula"/></td> 
+           </tr>
+           <tr>
+              <td>Email:</td>
+              <td><input type="text" name="email"/></td> 
+           </tr>
+           <tr>
+              <td>Cargo:</td>
+              <td><input type="radio" name="cargo" value="Aluno"/>Aluno
+                  <input type="radio" name="cargo" value="Professor"/>Professor
+                  <input type="radio" name="cargo" value="Coordenador"/>Coordenador
+                  <input type="radio" name="cargo" value="Equipe TI"/>Equipe TI
+              </td> 
+           </tr>
+           <tr>
+              <td>Tipo de Sala:</td>
+              <td><input type="radio" name="tipoSala" value="Sala de Aula"/>Sala de Aula
+                  <input type="radio" name="tipoSala" value="Sala Invertida"/>Sala Invertida
+                  <input type="radio" name="tipoSala" value="Laboratorio de Informatica"/>Laboratório de Informática
+              </td> 
+           </tr>  
+           <tr>
+              <td colspan="2">
+                  <input type="submit" value="Adicionar Usuário"/>       
+              </td> 
+           </tr>  
+           
+     </table>
+</form>
